@@ -26,7 +26,7 @@ The objectives of this program are:
 .
 ├──LICENSE - Program license.
 ├──README.md - Documentation of the Repository and Program.
-└──Raquel_Procópio_2024152293-Ana_Cavaleiro_2025179696-bacterial_growth_simulation/ - Directory with the files of the Program.
+└──Raquel_Procópio_2024152293-Ana_Cavaleiro_2025179696-bacterial_growth_simulation.zip - Zip file with a directory with the files of the program.
     ├──bgc.py - Main file responsible for the execution of the Program. Contains "Class Simulation", functions and argument parser.
     ├──bacteria_module.py - Module containing "Class Bacterium" representing each bacteria.
     └──grid_module.py - Module containing "Class Grid" representing the simulation space.
@@ -50,7 +50,7 @@ The following information must be given as command line arguments:
 How to execute:
 
 
-First you have to unzip the zip file in this repository. **Make sure you don´t unzip it into a directory with the same name.**
+First you have to unzip the zip file in this repository. **Make sure you don´t unzip it into a directory with the same name as the directory inside.**
 It should be only one directory with the name: `Raquel_Procópio_2024152293-Ana_Cavaleiro_2025179696-bacterial_growth_simulation`, and inside there will be 3 files:
 - `bgc.py`
 - `bacteria_module.py`
@@ -127,3 +127,4 @@ For support:
 
 *BacSimul* is licensed under the **MIT license**.
 See `LICENSE` file.
+
