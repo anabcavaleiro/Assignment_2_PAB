@@ -22,7 +22,8 @@ The objectives of this program are:
 
 ### Program Structure
 
-```
+```text
+.
 ├──LICENSE - Program license.
 ├──README.md - Documentation of the Repository and Program.
 └──Raquel_Procópio_2024152293-Ana_Cavaleiro_2025179696-bacterial_growth_simulation/ - Directory with the files of the Program.
@@ -48,9 +49,17 @@ The following information must be given as command line arguments:
 
 How to execute:
 
+
+First you have to unzip the zip file in this repository. **Make sure you don´t unzip it into a directory with the same name.**
+It should be only one directory with the name: `Raquel_Procópio_2024152293-Ana_Cavaleiro_2025179696-bacterial_growth_simulation`, and inside there will be 3 files:
+- `bgc.py`
+- `bacteria_module.py`
+- `grid_module.py`
+
+
 ```bash
 #Go into the directory
-cd .\Raquel_Procópio_2024152293-Ana_Cavaleiro_2025179696-bacterial_growth_simulation\
+cd Raquel_Procópio_2024152293-Ana_Cavaleiro_2025179696-bacterial_growth_simulation
 #Run the simulation
 python bgc.py <width> <height> <simul_steps> <print_freq> <JSON_path> <CSV_path>
 #Command line arguments help:
